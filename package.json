@@ -1,0 +1,18 @@
+{
+  "name": "smpp-load-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^14.1.0"
+  }
+}
